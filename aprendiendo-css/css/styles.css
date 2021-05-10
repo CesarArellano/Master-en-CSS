@@ -13,12 +13,6 @@ h1 {
   padding: 10px;
 }
 
-a {
-  font-size: 18px;
-  color: green;
-  text-decoration: none;
-}
-
 footer a {
   color: red;
 
@@ -74,3 +68,12 @@ input[type="submit"] {
   width: 300px;
   cursor: pointer;
 }
+
+/* Child Selector */
+
+#menu > li > a{
+  font-size: 18px;
+  color: red;
+  text-decoration: none;
+}
+
