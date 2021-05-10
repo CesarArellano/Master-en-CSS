@@ -29,16 +29,48 @@ footer a {
 #description,
 #titulo
 {  
-  background: rgb(0, 140, 255);
+  background: purple;
   border: 1px solid black;
   padding: 15px;
   color: white;
 }
 
-
-
 /* Selector de clase */
 
+.parrafo {
+  font-style: italic;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.parrafo2 {
+  background: orange;
+}
 
 /* Selector de atributo */
+#user form {
+  border: 5px solid blue;
+  margin: 15px 0;
+  padding: 20px;
+}
 
+#user form * {
+  display: block; /* Cada elemento tiene su espacio línea por línea*/
+}
+
+input[type="text"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  background: green;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+  padding: 15px;
+  width: 300px;
+  cursor: pointer;
+}
