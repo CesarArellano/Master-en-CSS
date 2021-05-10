@@ -21,9 +21,19 @@ a {
 
 footer a {
   color: red;
+
 }
 
 /* Selector de id */
+
+#description,
+#titulo
+{  
+  background: rgb(0, 140, 255);
+  border: 1px solid black;
+  padding: 15px;
+  color: white;
+}
 
 
 
