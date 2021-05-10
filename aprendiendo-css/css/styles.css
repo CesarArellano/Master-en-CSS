@@ -77,3 +77,13 @@ input[type="submit"] {
   text-decoration: none;
 }
 
+/* Prioridad en los estilos de más abajo, sin embargo si uno es más
+específico con los estilos de algún elemento esta será la que predominará */
+
+#saludo h1{
+  background: brown;
+}
+
+h1 {
+  background: blue;
+}
