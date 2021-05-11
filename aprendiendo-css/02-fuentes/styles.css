@@ -6,6 +6,16 @@
 h1 {
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
+  /* Colores */
+  /* Colores del sistema */
+  color: mediumslateblue;
+  /* Colores hexadecimales */
+  color: #79a1e0;
+  /* color: transparent; */
+  /* Colores RGB */
+  /* color: rgb(17, 162, 230); */
+  /* Colores RGBA */
+  /* color: rgba(17, 162, 230, 0.8) */
 }
 
 h3 {
