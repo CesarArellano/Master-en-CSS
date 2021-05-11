@@ -9,11 +9,20 @@
 </head>
 <body>
   <h1>Boxes in CSS with César Arellano</h1>
-  <div id="box1">
-    <p>Box's content 1</p>
-  </div>
-  <section id="box2">
-    <p>Box's content 2</p>
+  <!-- Elements floating -->
+  <section id="boxes">
+    <div class="box">
+      <p>Box's content 1</p>
+    </div>
+    
+    <div class="box">
+      <p>Box's content 2</p>
+    </div>
   </section>
+  <!-- Elements not floating -->
+  <div class="clearfix">
+    <h2>Content after positioned boxes</h2>
+    <p>Texto Prueba</p>
+  </div>
 </body>
 </html>
