@@ -1,0 +1,150 @@
+/* .contact-form__input:first-child {
+  color: red;
+}
+
+.contact-form__input--active {
+  color: #15b300;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+div {
+  height: 300px;
+  background: yellow;
+  border: 5px solid red;
+  overflow: auto;
+}
+
+/* .sticky-box {
+  background: rgb(0, 89, 255);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+
+.fixed-box {
+  background: rgb(0, 89, 255);
+  color: white;
+  position: fixed;
+  margin: -100px;
+} */
+
+
+/* .container {
+  width: 600px;
+  height: 600px;
+  background: green;
+  position: relative;
+  border: 4px solid red;
+  margin: 50px auto;
+}
+
+.container div {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background: yellow;
+}
+
+.box {
+  background: orange;
+  top: 0;
+}
+
+.box2 {
+  background: violet;
+  right: 0;
+}
+
+.box3 {
+  background: red;
+  bottom: 0;
+}
+
+.box4 {
+  background: aquamarine;
+  right: 0;
+  bottom: 0;
+}
+
+.box5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+} */
+/* Sobreponer padre del hijo
+.container {
+  width: 300px;
+  height: 300px;
+  background: blue;
+  margin: 40px;
+}
+
+.child {
+  width: 120px;
+  height: 120px;
+  background: orange;
+  position: relative;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+} */
+
+
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin: auto;  Centra horizontalmente
+  outline: 10px solid blue;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  margin: auto;
+} */
+
+/* h2 {
+  display: inline-block;
+  background-color: #fa7901;
+  padding: 50px;
+  margin: 20px 10px;
+  width: 300px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 2em;
+  border: 4px solid #a22;
+  box-shadow: 30px 20px 8px 2px #000000;
+  text-shadow: 2px 2px 10px #fff, 2px 2px 10px #fff, 2px 2px 10px #fff;
+  transform: rotate(-45deg);
+}
+
+p {
+  height: 40px;
+  width: 100px;
+} 
+
+.contact-form {
+  font-size: 20px;
+}
+
+.contact-form__h2 {
+  text-align: center;
+  font-size: 2em;
+} */
+

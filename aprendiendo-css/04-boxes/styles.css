@@ -6,12 +6,17 @@ body {
   padding: 20px;
 }
 
+#boxes {
+  max-width: 1200px;
+  border: 2px solid black;
+}
+
 .box {
   width: 250px;
   height: 250px;
   background-color: lightblue;
   border: 10px solid red;
-  margin: 15px;
+  margin: 10px;
   padding: 20px;
   float: left;
 }
