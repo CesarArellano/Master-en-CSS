@@ -1,0 +1,130 @@
+// Variables
+$global-font: sans-serif, Helvetica, Arial;
+$background-color: #407ecf;
+$white: #fff;
+$primary-color: #c7dfdd;
+$secondary-color: #e0b2b2;
+
+// Use of variables
+body {
+  background-color: $background-color;
+}
+
+h1 {
+  font-family: $global-font;
+  color: $white;
+}
+
+p {
+  color: $primary-color;
+}
+
+// Nesting 
+ul {
+  li {
+    color: $secondary-color;
+  }
+}
+
+.box {
+
+  border: 1px solid black;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  background: $white;
+  
+  h1 {
+    color: blue;
+  }
+
+  p {
+    font-size: 18px;
+    color: #1fc71f;
+    font-weight: bold;
+  }
+
+  .info {
+    font-size: 28px;
+    margin-bottom: 20px;
+
+    .subtitle {
+      color: $background-color;
+    }
+  }
+
+}
+
+
+// Mixins / Functions
+@mixin createBorder($color, $size, $shadow) {
+  margin-top: 20px;
+  border: 5px solid $color;
+  border-radius: $size;
+  box-shadow: 0px 0px 5px $shadow;
+}
+
+.box {
+  @include createBorder(green, 10px, black);
+}
+
+.list {
+  @include createBorder($white, 20px, green);
+}
+
+// Inheritance
+%normal-alert {
+  border: 1px solid gray;
+  background: #777676;
+  padding: 10px;
+  margin: 20px auto;
+  width: 80%;
+  color: $white;
+}
+
+.alert {
+  @extend %normal-alert;
+}
+
+.alert-danger {
+  background: red;
+}
+
+.alert-success {
+  background: #1fc71f;
+}
+
+// Operators
+
+h1 {
+  font-size: 20px + 5px - 1px;
+}
+
+.box {
+  width: 500px / 20%;
+}
+
+// Conditionals - IF
+$background-color: $white;
+
+h1 {
+  @if $background-color == #ccc {
+    color: black;
+  } @else if $background-color == $white {
+    color: black;
+  } @else {
+    color: $white;
+  }
+}
+
+// FOR
+$counter: 1;
+@for $counter from 1 through 8 {
+  .list ul li:nth-child(#{$counter}) {
+    font-size: $counter + 10px;
+    color: #f6dda3;
+  }
+} 
+// EACH
+
+// WHILE
